@@ -56,7 +56,6 @@ class FigureCaptionProcessor(BlockProcessor):
         
         # print(block, isImage, isOnlyOneLine, isInFigure, "T,T,F")
         if (isImage and isOnlyOneLine and not isInFigure):
-            print(block)
             return True
         else:
             return False
